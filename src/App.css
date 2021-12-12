@@ -351,21 +351,21 @@ main {
 /* skills */
 
 .bowl_text_description_skill {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1);
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 38%;
+  width: 600px;
   line-height: 40px;
-  animation: bowl_text_description_skill 0.7s ease-in-out;
+  animation: bowl_text_description_skill 1.2s ease-in-out;
 }
 
 @keyframes bowl_text_description_skill {
   0% {
-    line-height: 0px;
+    transform: translate(-50%, -50%) scale(0.4);
     opacity: 0;
   }
 }

@@ -291,7 +291,15 @@
   width: 200px;
   height: 200px;
   transform: scale(0.7);
-  animation: bowl_theam3_bottom_skills 1s ease-in-out;
+  animation: bowl_theam3_skills 1s ease-in-out;
+}
+
+@keyframes bowl_theam3_skills {
+  0% {
+    opacity: 0;
+    top: -5%;
+    right: 90%;
+  }
 }
 
 .bowl_theam3_bottom_skills {
@@ -303,6 +311,7 @@
 
 @keyframes bowl_theam3_bottom_skills {
   0% {
+    opacity: 0;
     top: 100%;
     right: -5%;
   }
