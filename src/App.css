@@ -52,7 +52,7 @@ nav::before {
   position: absolute;
   content: "";
   top: 37%;
-  /* left: 50%; */
+
   height: 49%;
   width: 5px;
   background: #fff;
@@ -93,7 +93,6 @@ nav::before {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* display: none; */
 }
 
 .logo_portfolio {
@@ -142,20 +141,13 @@ nav::before {
   height: 25px !important;
 }
 
-
-
 main {
-  /* background: chartreuse; */
   height: 100%;
   width: calc(100% - 70px);
   position: relative;
 }
 
-
-
-
-
-.menu_list{
+.menu_list {
   top: 50px;
   position: absolute;
   right: 0;
@@ -167,15 +159,13 @@ main {
   justify-content: space-evenly;
 }
 
-
-.bowl_menu_lin{
+.bowl_menu_lin {
   position: relative;
   user-select: none;
   cursor: pointer;
 }
 
-
-.line_bottom_menu{
+.line_bottom_menu {
   position: absolute;
   width: 55px;
   height: 4px;
@@ -185,10 +175,7 @@ main {
   transition: all 0.3s ease-out;
 }
 
-
-
-
-.bowl_text_description{
+.bowl_text_description {
   position: absolute;
   top: 28%;
   right: 20%;
@@ -197,56 +184,48 @@ main {
   line-height: 40px;
 }
 
-
-.bowl_my_graduate{
+.bowl_my_graduate {
   color: #eee;
-margin-top: 40px;
-font-size: 1.4rem;
-font-weight: bold;
+  margin-top: 40px;
+  font-size: 1.4rem;
+  font-weight: bold;
 }
 
-
-.bowl_my_graduate img{
+.bowl_my_graduate img {
   transform: translateY(-30%);
 }
 
-
-.bowl_3items_contentm{
+.bowl_3items_contentm {
   animation: bowl_3items_contentm 1.5s ease-in-out;
-
 }
 
 @keyframes bowl_3items_contentm {
-    0%{
-        opacity: 0;
-    }
+  0% {
+    opacity: 0;
+  }
 }
-/* ------------------------------------ */
-/* ------------------------------------ */
+
 /* ------------------------------------ */
 /* ------------------------------------ */
 
-.section_myinfos{
+.section_myinfos {
   position: absolute;
   top: 50px;
-  left:100px;
-display: flex;
-flex-direction: column;
-align-items: center;
-animation: section_myinfos 1s ease-in-out;
-
+  left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: section_myinfos 1s ease-in-out;
 }
-
 
 @keyframes section_myinfos {
-    0%{
-      top: -250px;
-      opacity: 0;
-    }
+  0% {
+    top: -250px;
+    opacity: 0;
+  }
 }
 
-
-.bowl_Avatar{
+.bowl_Avatar {
   width: 200px;
   border: 5px solid #fff;
   height: 200px;
@@ -254,35 +233,21 @@ animation: section_myinfos 1s ease-in-out;
   border-radius: 50%;
 }
 
-
-.bowl_Avatar img{
+.bowl_Avatar img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
   object-fit: cover;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-.bowl_title_name{
+.bowl_title_name {
   position: relative;
   width: 100%;
 }
 
-
 .theam1_nametitle {
   height: 50px;
-  /* position: absolute; */
+
   position: relative;
   display: flex;
   transform: scale(0.8);
@@ -331,78 +296,202 @@ animation: section_myinfos 1s ease-in-out;
   top: 0;
 }
 
-  
 .theam1_nametitle .ch7 {
   position: absolute;
-width: 20px;
-height: 20px;
-background: #fff;
-border-radius: 50%;
-top: -7px;
-left: 244px;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 50%;
+  top: -7px;
+  left: 244px;
 }
-
-
 
 .theam1_nametitle .ch8 {
   position: absolute;
-width: 20px;
-height: 20px;
-background: #fff;
-border-radius: 50%;
-bottom: -7px;
-left: -5px;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 50%;
+  bottom: -7px;
+  left: -5px;
 }
 
-
-.theam1_nametitle .ch1 span{
+.theam1_nametitle .ch1 span {
   position: absolute;
   font-size: 1.8rem;
 }
 
-.theam1_nametitle .ch3 span{
+.theam1_nametitle .ch3 span {
   position: absolute;
   font-size: 1.8rem;
   top: 30%;
 }
 
-
-
-
-
-
-.bowl_my_info_Address{
-  /* width: 100%; */
-  /* background: chocolate; */
-  /* display: flex; */
-  /* flex-direction: column; */
+.bowl_my_info_Address {
   margin-top: 30px;
-  /* align-items: center; */
 }
 
-
-
-
-.line_Address{
+.line_Address {
   display: flex;
   align-items: center;
   margin-top: 25px;
 }
 
-
-.line_Address svg{
+.line_Address svg {
   width: 30px;
   height: 30px;
 }
 
-
-.line_Address .title_line{
+.line_Address .title_line {
   margin-left: 10px;
   font-size: 1.1rem;
   letter-spacing: 1px;
 }
 
+/* skills */
 
+.bowl_text_description_skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 38%;
+  line-height: 40px;
+  animation: bowl_text_description_skill 0.7s ease-in-out;
+}
 
+@keyframes bowl_text_description_skill {
+  0% {
+    line-height: 0px;
+    opacity: 0;
+  }
+}
 
+.title_seaction_skills {
+  font-size: 2.5rem;
+}
 
+.all_skills_me {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.all_skills_me > div {
+  text-align: center;
+}
+
+.all_skills_me > div > span {
+  display: block;
+}
+.all_skills_me > div > span:hover {
+  color: #ee0823;
+}
+
+.all_skills_me .title_skil {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* contact */
+
+.bowl_Contact {
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  display: flex;
+}
+
+.bowl_Contact .bowl_title_name {
+  transform: skew(0deg);
+  width: 40%;
+}
+
+.bowl_contacts_line {
+  height: 250px;
+  width: 550px;
+  margin-top: 120px;
+  border-left: 4px solid #fff;
+  position: relative;
+  animation: bowl_contacts_line 0.3s ease-in-out;
+}
+
+@keyframes bowl_contacts_line {
+  0% {
+    height: 0px;
+    opacity: 0;
+  }
+}
+
+.bowl_contacts_line::after {
+  position: absolute;
+  content: "";
+  background: var(--red);
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  top: -5px;
+  left: -2px;
+
+  transform: translate(-50%, -50%);
+}
+
+.line_to_info_contact {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+
+  padding-left: 180px;
+  position: relative;
+}
+
+.line_to_info_contact .line_Address {
+  margin-top: 80px;
+  animation: line_Address2 1.5s ease-in-out;
+}
+
+.line_to_info_contact::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 100%;
+  transform: translateY(-50%);
+  background: #fff;
+  width: 150px;
+  height: 3px;
+  animation: line_Address3 0.8s ease-in-out;
+}
+
+.line_to_info_contact::before {
+  position: absolute;
+  content: "";
+  background: var(--red);
+  width: 15px;
+  top: 100%;
+  transform: translateY(-50%);
+  height: 15px;
+  border-radius: 50%;
+  left: 150px;
+  animation: line_Address3 1.2s ease-in-out;
+}
+
+@keyframes line_Address2 {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+}
+
+@keyframes line_Address3 {
+  0% {
+    width: 0px;
+    transform: translateX(200px);
+    opacity: 0;
+  }
+}
