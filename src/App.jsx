@@ -6,7 +6,7 @@ import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
 import Skills from "./pages/Skills";
 function App() {
-  const [page, setPage] = useState("Skills");
+  const [page, setPage] = useState("About");
   return (
     <div className="App">
       <nav>
