@@ -48,6 +48,7 @@
   bottom: 0;
   left: 320px;
   transform: translateY(60%);
+  transition: all 0.3s ease-in-out;
   animation: circle_outline_bottom 0.5s ease-in-out;
 }
 @keyframes circle_outline_bottom {
@@ -66,6 +67,7 @@
   transform: scale(0.8);
   z-index: 20;
   animation: theam1 0.7s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .theam1.skills {
@@ -274,8 +276,8 @@
   right: 50%;
   width: 200px;
   height: 200px;
-  /* background: aqua; */
   transform: scale(0.7);
+  transition: all 0.3s ease-in-out;
 }
 
 .bowl_theam3_bottom {
