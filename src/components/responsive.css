@@ -1,0 +1,237 @@
+@media screen and (max-width: 1100px) {
+  .bowl_theam3 {
+    transform: scale(0.5);
+  }
+  .bowl_theam3_bottom {
+    transform: scale(-0.5);
+  }
+  .bowl_text_description {
+    font-size: 0.9rem;
+  }
+
+  .theam2 {
+    bottom: -154px;
+    right: -46px;
+    transform: rotate(-30deg) scale(0.5);
+  }
+
+  .bowl_my_graduate {
+    font-size: 1rem;
+  }
+  .bowl_my_graduate img {
+    transform: translate(-18%, -35%) scale(0.7);
+  }
+  .theam1 {
+    transform: scale(0.7);
+    bottom: 28px;
+  }
+
+  .section_myinfos {
+    transform: scale(0.9);
+  }
+  .content_Bowl_slider {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .bowl_theam3 {
+    transform: scale(0.4);
+    top: 15%;
+    right: 44%;
+  }
+
+  .bowl_theam3_bottom {
+    top: 31%;
+    right: 3%;
+    transform: scale(-0.4);
+  }
+  .bowl_text_description {
+    font-size: 0.8rem;
+  }
+
+  .section_myinfos {
+    transform: scale(0.8);
+  }
+  .bowl_text_description {
+    top: 27%;
+    right: 16%;
+  }
+
+  .bowl_Contact {
+    left: -4%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .section_myinfos {
+    left: 35%;
+    top: 96px;
+    transform: scale(0.8) translateX(-50%);
+  }
+  .bowl_my_info_Address {
+    margin-top: 47px;
+  }
+  .line_Address {
+    margin-top: 45px;
+  }
+
+  .theam1 {
+    left: -8px;
+    transform: scale(0.5);
+  }
+  .circle_outline_bottom {
+    bottom: -12px;
+    left: 117px;
+  }
+
+  .menu_list {
+    transform: scale(0.8);
+  }
+  .bowl_theam3 {
+    display: none;
+  }
+
+  .bowl_theam3_bottom {
+    display: none;
+  }
+  .bowl_text_description {
+    display: none;
+  }
+
+  .theam1.skills {
+    bottom: 25px;
+    left: -6%;
+  }
+
+  .bowl_theam3_skills {
+    top: 18%;
+    right: 73%;
+  }
+
+  .bowl_theam3_bottom_skills {
+    top: 61%;
+    right: 9%;
+  }
+  .bowl_text_description_skill {
+    left: 50%;
+    top: 58%;
+    transform: translate(-50%, -50%) scale(0.8);
+  }
+  .all_skills_me {
+    margin-top: 50px;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  .bowl_contacts_line {
+    margin-top: 124px;
+    margin-left: 42px;
+    position: absolute;
+  }
+  .bowl_Contact .bowl_title_name {
+    width: 109%;
+  }
+
+  .bowl_title_projects {
+    left: 50% !important;
+    top: 14% !important;
+    transform: scale(0.8) translateX(-50%);
+  }
+
+  .bowl_slider_project {
+    left: 52% !important;
+    top: 58% !important;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .theam2 {
+    display: none;
+  }
+
+  .menu_list {
+    top: 39px;
+    transform: scale(0.6);
+    right: -70px;
+  }
+
+  .circle_outline_top {
+    width: 73px;
+    height: 63px;
+    right: 73%;
+  }
+
+  .bowl_theam3_skills {
+    display: none;
+  }
+
+  .bowl_theam3_bottom_skills {
+    display: none;
+  }
+
+  .bowl_text_description_skill {
+    top: 50%;
+    width: 100%;
+    line-height: 34px;
+  }
+
+  .all_skills_me {
+    display: inline;
+  }
+
+  .bowl_Contact {
+    left: -13%;
+  }
+
+  .bowl_contacts_line {
+    margin-top: 153px;
+    margin-left: 44px;
+  }
+
+  .line_to_info_contact::after {
+    width: 15px;
+  }
+  .line_to_info_contact::before {
+    left: 15px;
+  }
+
+  .line_to_info_contact {
+    padding-left: 37px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .bowl_slider_project {
+    padding-bottom: 70px;
+  }
+
+  .bowl_projects {
+    height: auto !important;
+    margin: 20px;
+
+    display: inline-block !important;
+  }
+
+  .bowl_info_t_project {
+    height: 150px;
+    margin-top: 25px;
+    opacity: 1;
+    width: 184px;
+  }
+
+  .line_prop:nth-child(1) {
+    margin-left: 0;
+  }
+  .line_prop:nth-child(2) {
+    margin-left: 0;
+  }
+  .line_prop:nth-child(3) {
+    margin-left: 0;
+  }
+
+  .bowl_projects:hover .bowl_info_t_project {
+    opacity: 1;
+    animation: none;
+  }
+}
